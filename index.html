@@ -2,62 +2,14 @@
 <html lang="fr">
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, maximum-scale=5.0"/>
-<META NAME="ROBOTS" content="noindex">
-
-<link rel="stylesheet" type="text/css" href="style.css"/>
-
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script>
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-	</script>
-    
-    </head>
-
-<body>
-<header>
-<div id="logo"></div>
-
-<div id="logo-phone">
-<div id ="menu-phone"><img src="menu.png" alt="menu" /></div>
-<a>Zazen en Provence</a>
-</div>
-
-
-    <!-- DEBUT Menu -->
 
 
 <nav class="clearfix">
 		<ul class="clearfix">
-			<li><a href="#">ACCUEIL</a></li>
-			<li><a href="#">PRESTATIONS</a></li>
-			<li><a href="#">SITUATION</a></li>
-			<li><a href="#">ACTIVITÉS</a></li>
-			<li><a href="#">TARIS</a></li>
-			<li><a href="#">CONTACT</a></li>
-			<li><a href="#">PHOTOS</a></li>	
-			<li><a href="#">NOTRE ARBORETUM</a></li>	
-			<li><a href="#">LIVRE D'OR</a></li>	
-			<li><a href="#">NOS AMIS</a></li>	
-			<li><a href="#">BLOG</a></li>	
+			<li><a href="#">Actualités</a></li>
+			<li><a href="#">Toutes les joueuses</a></li>
+			<li><a href="#">Calendrier</a></li>
+			<li><a href="#">Coupe du monde</a></li>
 		</ul>
 		<a href="#" id="pull">Menu</a>
 	</nav>
@@ -66,50 +18,3 @@
 
 <!-- FIN Menu -->
 
-
-</header>
-
-
-
-<div id ="diapo">
-<img src="diapo.JPG" alt="diaporama" />
-</div>
-
-
-
-<section>
-
-<div id ="introduction">
-<a>Résidence calme située à Callian, proche du lac St Cassien</a>
-</div>
-
-<article>
-<a id="titre">Zazen Location</a></br></br>
-<a id="texte">Particulier vous accueille dans un lieu magique et propice
-à la méditation dans un arboretum de 5000 m2</br></br>Venez vous reposer et découvrir plus de 60 espèces  de végétaux et d'arbres.</a>
-</article>
-
-<aside>
-<img src="gite1.jpg" alt="gite" />
-<div id="bloc-text">
-<a id="titre">Gîtes Albizia </a></br></br>
-<a id="texte">avec lit 2 places,Kitchenette, salle de bain, wifi, tv, climatisation,
-piscine chauffée, parking dans propriété.</a>
-</div>
-</aside>
-
-<aside>
-<img src="gite2.jpg" alt="gite" />
-<div id="bloc-text">
-<a id="titre">Gîte bambou</a></br></br>
-<a id="texte">avec lit 2 places,Kitchenette, salle de bain, wifi, tv, climatisation,
-piscine chauffée, parking dans propriété.</a>
-</div>
-
-</aside>
-
-
-</section>
-
-</body>
-</html>
